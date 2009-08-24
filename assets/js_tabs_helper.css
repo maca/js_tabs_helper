@@ -1,0 +1,39 @@
+div#tabbed {
+	margin: 40px 20px 20px 0;
+}
+
+.tab_content {
+	background-color: #cce6ea;
+	padding: 10px;
+	margin-top: 4px;
+	border: 1px solid silver;
+}
+
+ul#tabnav { 
+	padding-left: 0;
+	list-style-type: none;
+	display: inline;
+}
+
+ul#tabnav li {	
+	display: inline;
+}
+
+ul#tabnav a {
+	padding: 5px 30px ;
+	border: 1px solid silver;
+	background-color: #e8f3f9;
+	margin-right: 0px; 
+	text-decoration: none;
+	border-bottom-style: none;
+}
+
+ul#tabnav a.selected {
+	padding-bottom: 6px;
+	background-color: #cae4e8;
+}
+
+ul#tabnav a:hover {	
+	background: #cce6ea;
+	color: black;
+}
