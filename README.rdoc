@@ -6,12 +6,12 @@ Provides view helper methods for creating tabs for hidding and displaying conten
 
 == Install
 
-$ script/plugin install http://github.com/maca/js_tabs_helper/master
+  $ script/plugin install http://github.com/maca/js_tabs_helper/master
 
 
 To copy the default stylesheet and js files into the corresponding folders.
-$ rake js_tabs_helper:copy_css
-$ rake js_tabs_helper:copy_js
+  $ rake js_tabs_helper:copy_css
+  $ rake js_tabs_helper:copy_js
 
 
 == Example
