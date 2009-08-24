@@ -1,5 +1,4 @@
 = TabsHelper
-==========
 
 Provides view helper methods for creating tabs for hidding and displaying content using unobtrusive jQuery JS.
 
