@@ -1,11 +1,10 @@
-TabsHelper
+= TabsHelper
 ==========
 
 Provides view helper methods for creating tabs for hidding and displaying content using unobtrusive jQuery JS.
 
 
-Install
-=======
+== Install
 
 $ script/plugin install http://github.com/maca/js_tabs_helper/master
 
@@ -15,8 +14,7 @@ $ rake js_tabs_helper:copy_css
 $ rake js_tabs_helper:copy_js
 
 
-Example
-=======
+== Example
 
 In your layout:
 
@@ -39,8 +37,8 @@ Will render the following markup:
 
     <div class="tabbed myclass" id="localized">
       <ul id="tabnav">
-        <li><a class="selected" id="es_link">Español</a></li>
-        <li><a id="en_link">Inglés</a></li>
+        <li><a class="selected" id="es_link">es</a></li>
+        <li><a id="en_link">en</a></li>
       </ul>
       <div class="tab_content" id="es">
         Contenido en español
